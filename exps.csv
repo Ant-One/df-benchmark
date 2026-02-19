@@ -1,2 +1,5 @@
 model_name,config,weights,test_dataset
 spsl,spsl.yaml,train_on_df40-fs-ff/spsl_fs_ff.pth,FSAll_cdf
+spsl,spsl.yaml,train_on_df40-fr-ff/spsl.pth,FSAll_cdf
+srm,srm.yaml,train_on_df40-fs-ff/srm_fs_ff.pth,FSAll_cdf
+srm,srm.yaml,train_on_df40-fr-ff/srm.pth,FSAll_cdf

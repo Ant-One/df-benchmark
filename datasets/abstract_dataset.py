@@ -488,7 +488,6 @@ class DeepfakeAbstractBaseDataset(data.Dataset):
             mask_path = image_path.replace('frames', 'masks')  # Use .png for mask
             landmark_path = image_path.replace('frames', 'landmarks').replace('.png', '.npy')  # Use .npy for landmark
 
-            # Load the image
             try:
                 image = self.load_rgb(image_path)
             except Exception as e:

@@ -1,9 +1,3 @@
-# log dir 
-log_dir: /Youtu_Pangu_Security/public/youtu-pangu-public/zhiyuanyan/logs/df40_exps/trainOnFR/recce
-
-metrics_dir: /home/antoine/DF40/df40_exps/$trainDataset/recce/metrics/
-preds_dir: /home/antoine/DF40/df40_exps/$trainDataset/recce/preds/
-save_preds: true
 
 # model setting
 pretrained: /home/antoine/DF40/DeepfakeBench_DF40/training/pretrained/xception-b5690688.pth   # path to a pre-trained model, if using one
@@ -26,7 +20,7 @@ compression: c23  # compression-level for videos
 train_batchSize: 64   # training batch size
 test_batchSize: 32   # test batch size
 workers: 8   # number of data loading workers
-frame_num: {'train': 8, 'test': 256}   # number of frames to use per video in training and testing
+frame_num: {'train': 8, 'test': 32}   # number of frames to use per video in training and testing
 resolution: 256   # resolution of output image to network
 with_mask: false   # whether to include mask information in the input
 with_landmark: false   # whether to include facial landmark information in the input

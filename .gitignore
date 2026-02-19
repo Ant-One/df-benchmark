@@ -208,3 +208,5 @@ __marimo__/
 
 datasets_json
 weights
+exps/preds
+pretrained
