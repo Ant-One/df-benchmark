@@ -1,11 +1,8 @@
-# log dir 
-metrics_dir: /home/antoine/DF40/df40_exps/$trainDataset/core/metrics/
-preds_dir: /home/antoine/DF40/df40_exps/$trainDataset/core/preds/
-save_preds: true
+
 
 # model setting
 # pretrained: /home/yuanxinhang/resnet34-b627a593.pth   # path to a pre-trained model, if using one
-pretrained: ./training/pretrained/xception-b5690688.pth   # path to a pre-trained model, if using one
+pretrained: pretrained/xception-b5690688.pth   # path to a pre-trained model, if using one
 model_name: core   # model name
 backbone_name: xception  # backbone name
 

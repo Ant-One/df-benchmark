@@ -1,13 +1,7 @@
-# log dir 
-log_dir: /Youtu_Pangu_Security/public/youtu-pangu-public/zhiyuanyan/logs/df40_exps/trainOnEFS/clip_base
-metrics_dir:  /home/antoine/DF40/df40_exps/$trainDataset/clip_base/metrics/
-preds_dir:  /home/antoine/DF40/df40_exps/$trainDataset/clip_base/preds/
-save_preds: true
-
 #log_dir: /Youtu_Pangu_Security/public/youtu-pangu-public/zhiyuanyan/logs/df40_exps/trainOnDF40/clip_multihead
 
 # model setting
-pretrained: /home/antoine/DF40/DeepfakeBench_DF40/training/pretrained/xception-b5690688.pth   # path to a pre-trained model, if using one
+pretrained: pretrained/xception-b5690688.pth   # path to a pre-trained model, if using one
 model_name: clip_base   # model name
 backbone_name: vit  # backbone name
 

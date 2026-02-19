@@ -1,12 +1,6 @@
-# log dir 
-log_dir: /data/home/zhiyuanyan/DeepfakeBench/debug_logs/ucf
-
-metrics_dir: /home/antoine/DF40/df40_exps/$trainDataset/ucf/metrics/
-preds_dir: /home/antoine/DF40/df40_exps/$trainDataset/ucf/preds/
-save_preds: true
 
 # model setting
-pretrained: /home/antoine/DF40/DeepfakeBench_DF40/training/pretrained/xception-b5690688.pth   # path to a pre-trained model, if using one
+pretrained: pretrained/xception-b5690688.pth   # path to a pre-trained model, if using one
 # pretrained: '/home/zhiyuanyan/.cache/torch/hub/checkpoints/resnet34-b627a593.pth'   # path to a pre-trained model, if using one
 model_name: ucf   # model name
 backbone_name: xception  # backbone name
@@ -29,7 +23,7 @@ compression: c23  # compression-level for videos
 train_batchSize: 16   # training batch size
 test_batchSize: 32   # test batch size
 workers: 8   # number of data loading workers
-frame_num: {'train': 32, 'test': 256}   # number of frames to use per video in training and testing
+frame_num: {'train': 32, 'test': 32}   # number of frames to use per video in training and testing
 resolution: 256   # resolution of output image to network
 with_mask: false   # whether to include mask information in the input
 with_landmark: false   # whether to include facial landmark information in the input

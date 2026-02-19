@@ -1,11 +1,5 @@
-# log dir 
-log_dir: /home/antoine/DF40/df40_exps/$trainDataset/xception/binary
-metrics_dir: /home/antoine/DF40/df40_exps/$trainDataset/xception/metrics/
-preds_dir: /home/antoine/DF40/df40_exps/$trainDataset/xception/preds/
-save_preds: true
-
 # model setting
-pretrained: /home/antoine/DF40/DeepfakeBench_DF40/training/pretrained/xception-b5690688.pth   # path to a pre-trained model, if using one
+pretrained: pretrained/xception-b5690688.pth   # path to a pre-trained model, if using one
 model_name: xception   # model name
 backbone_name: xception  # backbone name
 

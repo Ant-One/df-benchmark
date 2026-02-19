@@ -1,12 +1,5 @@
-# log dir 
-log_dir: /mntcephfs/lab_data/yuanxinhang/benchmark_results/logs_final/capsule_new
-
-metrics_dir:  /home/antoine/DF40/df40_exps/$trainDataset/capsule_net/metrics/
-preds_dir:  /home/antoine/DF40/df40_exps/$trainDataset/capsule_net/preds/
-save_preds: true
-
 # model setting
-pretrained: /home/antoine/DF40/DeepfakeBench_DF40/training/pretrained/xception-b5690688.pth   # path to a pre-trained model, if using one
+pretrained: pretrained/xception-b5690688.pth   # path to a pre-trained model, if using one
 model_name: capsule_net # model name
 backbone_name: xception  # no backbone VGGextractor
 num_classes: 2
@@ -26,7 +19,7 @@ test_dataset: [FaceForensics++, DeepFakeDetection, Celeb-DF-v2, DFDCP]
 train_batchSize: 32   # training batch size
 test_batchSize: 32   # test batch size
 workers: 8   # number of data loading workers
-frame_num: {'train': 32, 'test': 256}   # number of frames to use per video in training and testing
+frame_num: {'train': 32, 'test': 32}   # number of frames to use per video in training and testing
 resolution: 256   # resolution of output image to network
 with_mask: false   # whether to include mask information in the input
 with_landmark: false   # whether to include facial landmark information in the input

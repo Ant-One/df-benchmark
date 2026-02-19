@@ -1,11 +1,6 @@
-# log dir 
-metrics_dir: /home/antoine/DF40/df40_exps/$trainDataset/efficientnetb4/metrics/
-preds_dir: /home/antoine/DF40/df40_exps/$trainDataset/efficientnetb4/preds/
-save_preds: true
-
 # model setting
 # pretrained: /home/zhiyuanyan/disfin/deepfake_benchmark/training/pretrained/xception-b5690688.pth   # path to a pre-trained model, if using one
-pretrained: ./training/pretrained/efficientnet-b4-6ed6700e.pth   # path to a pre-trained model, if using one
+pretrained: pretrained/efficientnet-b4-6ed6700e.pth   # path to a pre-trained model, if using one
 model_name: efficientnetb4   # model name
 backbone_name: efficientnetb4  # backbone name
 

@@ -1,8 +1,3 @@
-# log dir 
-metrics_dir: /home/antoine/DF40/df40_exps/$trainDataset/meso4inception/metrics/
-preds_dir: /home/antoine/DF40/df40_exps/$trainDataset/meso4inception/preds/
-save_preds: true
-
 # model setting
 pretrained: false   # path to a pre-trained model, if using one
 model_name: meso4Inception   # model name
