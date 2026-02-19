@@ -1,10 +1,10 @@
 model_name,config,weights,test_dataset,done
-capsule_net,capsule_net.yaml,train_on_ff-orig/capsule_best.pth,FSAll_cdf,
-clip_base,clip_base.yaml,train_on_df40-all-ff/clip.pth,FSAll_cdf,
-clip_base,clip_base.yaml,train_on_df40-fs-ff/clip.pth,FSAll_cdf,
-clip_base,clip_base.yaml,train_on_df40-fr-ff/clip.pth,FSAll_cdf,
-clip_large,clip_large.yaml,train_on_df40-all-ff/clip_large.pth,FSAll_cdf,
-clip_large,clip_large.yaml,train_on_df40-fs-ff/clip_large.pth,FSAll_cdf,
+capsule_net,capsule_net.yaml,train_on_ff-orig/capsule_best.pth,FSAll_cdf,TRUE
+clip_base,clip_base.yaml,train_on_df40-all-ff/clip.pth,FSAll_cdf,TRUE
+clip_base,clip_base.yaml,train_on_df40-fs-ff/clip.pth,FSAll_cdf,TRUE
+clip_base,clip_base.yaml,train_on_df40-fr-ff/clip.pth,FSAll_cdf,TRUE
+clip_large,clip_large.yaml,train_on_df40-all-ff/clip_large.pth,FSAll_cdf,TRUE
+clip_large,clip_large.yaml,train_on_df40-fs-ff/clip_large.pth,FSAll_cdf,TRUE
 clip_large,clip_large.yaml,train_on_df40-fr-ff/clip_large.pth,FSAll_cdf,TRUE
 core,core.yaml,train_on_ff-orig/core_best.pth,FSAll_cdf,
 efficientnetb4,efficientnetb4.yaml,train_on_ff-orig/effnb4_best.pth,FSAll_cdf,
