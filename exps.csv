@@ -1,5 +1,11 @@
-model_name,config,weights,test_dataset
-spsl,spsl.yaml,train_on_df40-fs-ff/spsl_fs_ff.pth,FSAll_cdf
-spsl,spsl.yaml,train_on_df40-fr-ff/spsl.pth,FSAll_cdf
-srm,srm.yaml,train_on_df40-fs-ff/srm_fs_ff.pth,FSAll_cdf
-srm,srm.yaml,train_on_df40-fr-ff/srm.pth,FSAll_cdf
+model_name,config,weights,test_dataset,done
+spsl,spsl.yaml,train_on_df40-fs-ff/spsl.pth,FSAll_cdf,
+spsl,spsl.yaml,train_on_df40-fr-ff/spsl.pth,FSAll_cdf,
+srm,srm.yaml,train_on_df40-fs-ff/srm.pth,FSAll_cdf,
+srm,srm.yaml,train_on_df40-fr-ff/srm.pth,FSAll_cdf,
+recce,recce.yaml,train_on_df40-fs-ff/recce.pth,FSAll_cdf,
+recce,recce.yaml,train_on_df40-fr-ff/recce.pth,FSAll_cdf,
+clip_large,clip_large.yaml,train_on_df40-fr-ff/clip_large.pth,FSAll_cdf,
+i3d,i3d.yaml,train_on_df40-fs-ff/i3d.pth,FSAll_cdf,TRUE
+i3d,i3d.yaml,train_on_df40-all-ff/i3d.pth,FSAll_cdf,
+i3d,i3d.yaml,train_on_df40-fr-ff/i3d.pth,FSAll_cdf,

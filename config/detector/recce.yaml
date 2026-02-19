@@ -1,6 +1,6 @@
 
 # model setting
-pretrained: /home/antoine/DF40/DeepfakeBench_DF40/training/pretrained/xception-b5690688.pth   # path to a pre-trained model, if using one
+pretrained: pretrained/xception-b5690688.pth   # path to a pre-trained model, if using one
 model_name: recce # model name
 backbone_name: xception  # backbone name
 

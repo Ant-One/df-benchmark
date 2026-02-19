@@ -32,7 +32,7 @@ resolution: 224   # resolution of output image to network
 with_mask: false   # whether to include mask information in the input
 with_landmark: false   # whether to include facial landmark information in the input
 video_mode: True  # whether to use video-level data
-clip_size: 64  # number of frames in each clip
+clip_size: 32  # number of frames in each clip
 
 
 # data augmentation
