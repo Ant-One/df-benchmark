@@ -1,0 +1,2 @@
+model_name,config,weights,test_dataset
+spsl,spsl.yaml,train_on_df40-fs-ff/spsl_fs_ff.pth,FSAll_cdf
