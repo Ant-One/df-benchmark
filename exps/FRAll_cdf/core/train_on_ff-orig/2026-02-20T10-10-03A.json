@@ -1,0 +1,10 @@
+{
+    "model_name": "core",
+    "test_dataset": "FRAll_cdf",
+    "train_dataset": "train_on_ff-orig",
+    "frames_per_video_test": 32,
+    "clip_size": null,
+    "elapsed_time": 648.0383026599884,
+    "frame_auc": 0.6410653891103955,
+    "video_auc": 0.6793566439633856
+}

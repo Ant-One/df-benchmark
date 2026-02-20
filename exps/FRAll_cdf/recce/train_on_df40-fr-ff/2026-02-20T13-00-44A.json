@@ -1,0 +1,10 @@
+{
+    "model_name": "recce",
+    "test_dataset": "FRAll_cdf",
+    "train_dataset": "train_on_df40-fr-ff",
+    "frames_per_video_test": 32,
+    "clip_size": null,
+    "elapsed_time": 1400.6508691310883,
+    "frame_auc": 0.8749378154129495,
+    "video_auc": 0.8909378479603198
+}

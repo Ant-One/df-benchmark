@@ -1,0 +1,10 @@
+{
+    "model_name": "rfm",
+    "test_dataset": "FRAll_cdf",
+    "train_dataset": "train_on_df40-fr-ff",
+    "frames_per_video_test": 32,
+    "clip_size": null,
+    "elapsed_time": 656.5697984695435,
+    "frame_auc": 0.875322349993964,
+    "video_auc": 0.8958790652610877
+}

@@ -1,0 +1,10 @@
+{
+    "model_name": "meso4",
+    "test_dataset": "FRAll_cdf",
+    "train_dataset": "train_on_ff-orig",
+    "frames_per_video_test": 32,
+    "clip_size": null,
+    "elapsed_time": 181.09570932388306,
+    "frame_auc": 0.46711654566466687,
+    "video_auc": 0.4614637109019132
+}

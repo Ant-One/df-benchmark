@@ -1,0 +1,10 @@
+{
+    "model_name": "effort",
+    "test_dataset": "FRAll_cdf",
+    "train_dataset": "train_on_ff-orig",
+    "frames_per_video_test": 8,
+    "clip_size": null,
+    "elapsed_time": 1404.2418842315674,
+    "frame_auc": 0.6830950332783575,
+    "video_auc": 0.7091254175523838
+}
