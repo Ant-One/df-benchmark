@@ -1,0 +1,10 @@
+{
+    "model_name": "capsule_net",
+    "test_dataset": "FRAll_cdf",
+    "train_dataset": "train_on_ff-orig",
+    "frames_per_video_test": 32,
+    "clip_size": null,
+    "elapsed_time": 929.1982824802399,
+    "frame_auc": 0.6948549961431261,
+    "video_auc": 0.7392202796697178
+}
