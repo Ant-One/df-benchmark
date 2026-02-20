@@ -1,0 +1,10 @@
+{
+    "model_name": "xception",
+    "test_dataset": "FRAll_cdf",
+    "train_dataset": "train_on_df40-fs-ff",
+    "frames_per_video_test": 32,
+    "clip_size": null,
+    "elapsed_time": 654.8140268325806,
+    "frame_auc": 0.6568433967586348,
+    "video_auc": 0.6823463913351554
+}
