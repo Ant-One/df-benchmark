@@ -1,0 +1,10 @@
+{
+    "model_name": "meso4incep",
+    "test_dataset": "FSAll_cdf",
+    "train_dataset": "train_on_ff-orig",
+    "frames_per_video_test": 32,
+    "clip_size": null,
+    "elapsed_time": 140.5704562664032,
+    "frame_auc": 0.5797011613383584,
+    "video_auc": 0.6022110513379298
+}

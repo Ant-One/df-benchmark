@@ -1,0 +1,10 @@
+{
+    "model_name": "clip_large",
+    "test_dataset": "FSAll_cdf",
+    "train_dataset": "train_on_df40-fs-ff",
+    "frames_per_video_test": 8,
+    "clip_size": null,
+    "elapsed_time": 963.5881946086884,
+    "frame_auc": 0.9741458297059387,
+    "video_auc": 0.9830279603508596
+}

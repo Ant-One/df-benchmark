@@ -1,0 +1,10 @@
+{
+    "model_name": "i3d",
+    "test_dataset": "FSAll_cdf",
+    "train_dataset": "train_on_df40-fs-ff",
+    "frames_per_video_test": 32,
+    "clip_size": 32,
+    "elapsed_time": 256.3927490711212,
+    "frame_auc": 0.9672311034985586,
+    "video_auc": 0.9719382766898399
+}
