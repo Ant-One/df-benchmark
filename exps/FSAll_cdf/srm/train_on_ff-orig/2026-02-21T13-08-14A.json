@@ -1,0 +1,10 @@
+{
+    "model_name": "srm",
+    "test_dataset": "FSAll_cdf",
+    "train_dataset": "train_on_ff-orig",
+    "frames_per_video_test": 32,
+    "clip_size": null,
+    "elapsed_time": 1099.560903787613,
+    "frame_auc": 0.688100378988507,
+    "video_auc": 0.740919907081852
+}
