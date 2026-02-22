@@ -209,5 +209,6 @@ __marimo__/
 datasets_json
 weights
 exps/**/preds
+exps_old/**/preds
 pretrained
 confdf_files
