@@ -1,0 +1,10 @@
+{
+    "model_name": "capsule_net",
+    "test_dataset": "ConfDF_norm_v2_th-bb",
+    "train_dataset": "train_on_ff-orig",
+    "frames_per_video_test": 32,
+    "clip_size": null,
+    "elapsed_time": 3.0370230674743652,
+    "frame_auc": 0.8358188205295138,
+    "video_auc": 0.8333333333333334
+}

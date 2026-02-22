@@ -1,0 +1,10 @@
+{
+    "model_name": "rfm",
+    "test_dataset": "ConfDF_norm_v2_th-m",
+    "train_dataset": "train_on_df40-fs-ff",
+    "frames_per_video_test": 32,
+    "clip_size": null,
+    "elapsed_time": 2.107599973678589,
+    "frame_auc": 0.9030126953125,
+    "video_auc": 0.9600000000000001
+}

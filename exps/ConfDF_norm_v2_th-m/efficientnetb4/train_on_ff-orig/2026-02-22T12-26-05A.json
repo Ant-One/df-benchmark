@@ -1,0 +1,10 @@
+{
+    "model_name": "efficientnetb4",
+    "test_dataset": "ConfDF_norm_v2_th-m",
+    "train_dataset": "train_on_ff-orig",
+    "frames_per_video_test": 32,
+    "clip_size": null,
+    "elapsed_time": 2.957782745361328,
+    "frame_auc": 0.8938378906250001,
+    "video_auc": 0.93
+}

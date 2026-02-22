@@ -1,0 +1,10 @@
+{
+    "model_name": "meso4",
+    "test_dataset": "ConfDF_norm_v2_th-ob",
+    "train_dataset": "train_on_ff-orig",
+    "frames_per_video_test": 32,
+    "clip_size": null,
+    "elapsed_time": 1.0794174671173096,
+    "frame_auc": 0.52591796875,
+    "video_auc": 0.55
+}

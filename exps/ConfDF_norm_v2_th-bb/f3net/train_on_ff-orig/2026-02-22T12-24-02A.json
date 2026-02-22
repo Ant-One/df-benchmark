@@ -1,0 +1,10 @@
+{
+    "model_name": "f3net",
+    "test_dataset": "ConfDF_norm_v2_th-bb",
+    "train_dataset": "train_on_ff-orig",
+    "frames_per_video_test": 32,
+    "clip_size": null,
+    "elapsed_time": 2.6936426162719727,
+    "frame_auc": 0.9579264322916666,
+    "video_auc": 0.9791666666666666
+}

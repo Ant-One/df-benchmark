@@ -1,0 +1,10 @@
+{
+    "model_name": "effort",
+    "test_dataset": "ConfDF_norm_v2_th-bb",
+    "train_dataset": "train_on_ff-orig",
+    "frames_per_video_test": 8,
+    "clip_size": null,
+    "elapsed_time": 4.253533363342285,
+    "frame_auc": 0.9978298611111112,
+    "video_auc": 1.0
+}
