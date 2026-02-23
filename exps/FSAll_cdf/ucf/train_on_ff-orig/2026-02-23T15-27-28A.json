@@ -1,0 +1,12 @@
+{
+    "model_name": "ucf",
+    "test_dataset": "FSAll_cdf",
+    "train_dataset": "train_on_ff-orig",
+    "frames_per_video_test": 32,
+    "clip_size": null,
+    "elapsed_time": 818.1987800598145,
+    "frame_auc": 0.7083355204624822,
+    "video_auc": 0.7320460933230866,
+    "frame_auc_pr": 0.8932975017234132,
+    "video_auc_pr": 0.9879021112921527
+}

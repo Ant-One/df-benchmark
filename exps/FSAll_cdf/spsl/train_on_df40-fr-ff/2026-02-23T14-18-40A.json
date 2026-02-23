@@ -1,0 +1,12 @@
+{
+    "model_name": "spsl",
+    "test_dataset": "FSAll_cdf",
+    "train_dataset": "train_on_df40-fr-ff",
+    "frames_per_video_test": 32,
+    "clip_size": null,
+    "elapsed_time": 452.5853817462921,
+    "frame_auc": 0.4778770022345325,
+    "video_auc": 0.49480709905100695,
+    "frame_auc_pr": 0.7486657168515806,
+    "video_auc_pr": 0.9672321872673058
+}
