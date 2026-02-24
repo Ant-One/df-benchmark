@@ -1,0 +1,12 @@
+{
+    "model_name": "spsl",
+    "test_dataset": "ConfDF_norm_v2_all",
+    "train_dataset": "train_on_ff-orig",
+    "frames_per_video_test": 32,
+    "clip_size": null,
+    "elapsed_time": 6.546053886413574,
+    "frame_auc": 0.9323030156072845,
+    "video_auc": 0.9552154195011338,
+    "frame_auc_pr": 0.9354588556264245,
+    "video_auc_pr": 0.9615907599632725
+}

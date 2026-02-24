@@ -414,6 +414,8 @@ class DeepfakeAbstractBaseDataset(data.Dataset):
             The augmented image, landmark, and mask.
         """
 
+        print("DATA-AUG")
+
         # Set the seed for the random number generator
         if augmentation_seed is not None:
             random.seed(augmentation_seed)

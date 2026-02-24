@@ -1,0 +1,12 @@
+{
+    "model_name": "srm",
+    "test_dataset": "ConfDF_norm_v2_th-ob",
+    "train_dataset": "train_on_df40-fr-ff",
+    "frames_per_video_test": 32,
+    "clip_size": null,
+    "elapsed_time": 4.352442264556885,
+    "frame_auc": 0.784150390625,
+    "video_auc": 0.8500000000000001,
+    "frame_auc_pr": 0.7150974403811575,
+    "video_auc_pr": 0.7529292929292929
+}

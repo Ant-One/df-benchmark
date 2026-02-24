@@ -1,0 +1,12 @@
+{
+    "model_name": "clip_large",
+    "test_dataset": "ConfDF_norm_v2_th",
+    "train_dataset": "train_on_df40-fr-ff",
+    "frames_per_video_test": 8,
+    "clip_size": null,
+    "elapsed_time": 3.597930908203125,
+    "frame_auc": 0.96859375,
+    "video_auc": 1.0,
+    "frame_auc_pr": 0.9635446701921795,
+    "video_auc_pr": 0.9999999999999999
+}
