@@ -10,8 +10,8 @@ The dataloader implementation is theirs, as well as the runner for the models.
 
 ## Relevant Files and Directories
 
-- [opti_rt_detection.ipynb](opti_rt_detection.ipynb) contains a proof-of-concept of a fusion of deepfake detectors in real-time from a screen-capture
-- [poc_rt_detection.ipynb](poc_rt_detection.ipynb) is a older version of the same POC with input from the webcam
+- [opti_rt_preds.ipynb](opti_rt_preds.ipynb) contains a proof-of-concept of a fusion of deepfake detectors in real-time from a screen-capture
+- [poc_rt_detection.ipynb](poc_rt_detection.ipynb) is an older version of the same POC with input from the webcam
 - [requirements.txt](requirements.txt) contains the conda environement information used to run this project
 - the [exps/](exps/) directory contains results from benchmarks on different datasets
 - [benchmarks.ipynb](benchmarks.ipynb) is a general test runner anmd logger
