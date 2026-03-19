@@ -1,0 +1,5 @@
+model_name,config,weights,test_dataset,done
+clip_base,clip_base.yaml,train_on_df40-all-ff/clip.pth,ConfDF_norm_v2_all,TRUE
+i3d,i3d.yaml,train_on_df40-all-ff/i3d.pth,ConfDF_norm_v2_all,TRUE
+spsl,spsl.yaml,train_on_ff-orig/spsl_best.pth,ConfDF_norm_v2_all,TRUE
+xception,xception.yaml,train_on_df40-all-ff/xception.pth,ConfDF_norm_v2_all,
